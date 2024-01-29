@@ -3,7 +3,8 @@ Let's introduce John The Ripper tool for cracking hashes
 
 # Introduction of the tool
 ## John The Ripper
-John The Ripper is a password-cracking tool that can break encrypted passwords by comparing them with a dictionary of common words or by using a brute-force algorithm. It supports many types of hashes and encryption methods, and can be used for various purposes such as auditing password security, recovering lost passwords, and testing password strength.
+John The Ripper is a password-cracking tool that can break encrypted passwords by comparing them with a dictionary of common words or by using a brute-force algorithm. It supports many types of hashes and encryption methods, and can be used for various purposes such as auditing password security, recovering lost passwords, and testing password strength.<br>
+<img src="john.png" width=70% height="auto"><br>
 
 Usage: john [OPTIONS] [PASSWORD-FILES]
 
