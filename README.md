@@ -124,7 +124,7 @@ Usage: john [OPTIONS] [PASSWORD-FILES]
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz (you can use your own dictionary) <br>
 **Hash identifier can support you to indifier the hash algorithm to use on the cracking process:** <br>
 hash-identifier (insert your hash, and check the results) <br>
-<img src="hashidentifier" width=100% height="auto"> <img src="import_site.png" width=50% height="auto"><br><br>
+<img src="hashidentifier.png" width=70% height="auto"><br><br>
 **I created a file called hashmd5.txt with inside these hashes:** <br>
 5f4dcc3b5aa765d61d8327deb882cf99 <br>
 21232f297a57a5a743894a0e4a801fc3 <br>
@@ -141,4 +141,4 @@ e10adc3949ba59abbe56e057f20f883e <br>
 john --wordlist=/usr/share/wordlists/rockyou.txt --format=Raw-MD5 /home/kali/Desktop/hashmd5.txt <br>
 <br>
 **Results** <br>
-<img src="crackedmd5hash" width=100% height="auto"> <img src="import_site.png" width=50% height="auto"><br><br>
+<img src="crackedmd5hash.png" width=70% height="auto"><br><br>
