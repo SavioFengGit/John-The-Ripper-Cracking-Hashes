@@ -125,7 +125,11 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz (you can use your own dictionar
 **Hash identifier can support you to indifier the hash algorithm to use on the cracking process:** <br>
 hash-identifier (insert your hash, and check the results) <br>
 <img src="hashidentifier.png" width=70% height="auto"><br><br>
-**I created a file called hashmd5.txt with inside these hashes:** <br>
+**List the formats command:** <br>
+john --list=formats <br>
+<img src="format.png" width=70% height="auto"><br><br>
+
+**I created a file called hashmd5.txt with inside these MD5 hashes:** <br>
 5f4dcc3b5aa765d61d8327deb882cf99 <br>
 21232f297a57a5a743894a0e4a801fc3 <br>
 e10adc3949ba59abbe56e057f20f883e <br>
@@ -135,10 +139,22 @@ e10adc3949ba59abbe56e057f20f883e <br>
 5baa61e4c9b93f3f0682250b6cf8331b <br>
 7c6a180b36896a0a8c02787eeafb0e4c <br>
 9b3b269ad0a208090309f091b3aba9db <br>
-<br>
 
 **Command for cracking:** <br>
 john --wordlist=/usr/share/wordlists/rockyou.txt --format=Raw-MD5 /home/kali/Desktop/hashmd5.txt <br>
 <br>
 **Results** <br>
 <img src="crackedmd5hash.png" width=70% height="auto"><br><br>
+
+**Usefull Options** 
+- format: **specifies the format of the hash to be analyzed. If not used, John the Ripper will try to detect it automatically.**
+- wordlist: **specifies the word file to use for the dictionary attack. If not used, John the Ripper will use the password.lst file in its folder.** 
+- rules: **enables the use of rules to modify the words of the dictionary. This option increases the execution time but also the chances of finding the password.** 
+- incremental: **enables the brute force attack, generating the words incrementally. This option requires a lot of time but can find any password.** 
+- show: **shows the passwords found without repeating the hash analysis.**
+
+
+
+
+#Author
+<b>Xiao Li Savio Feng</b>
