@@ -122,7 +122,7 @@ Usage: john [OPTIONS] [PASSWORD-FILES]
 ## Example of cracking MD5 hashes with John the Ripper <br>
 **Remember to unzip the file rockyou.txt.gz:** <br>
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz (you can use your own dictionary) <br>
-**Hash identifier can support you to indifier the hash algorithm to use on the cracking process:** <br>
+**Hash identifier can help you to identify the hash algorithm to use in the cracking process.:** <br>
 hash-identifier (insert your hash, and check the results) <br>
 <img src="hashidentifier.png" width=70% height="auto"><br><br>
 **List the formats command:** <br>
