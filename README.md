@@ -1,5 +1,5 @@
 # John-The-Ripper-Cracking-Hashes
-Introduce John The Ripper tool for cracking hashes
+Let's introduce John The Ripper tool for cracking hashes
 
 # Introduction of the tool
 ## John The Ripper
